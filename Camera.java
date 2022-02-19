@@ -58,44 +58,44 @@ public class Camera {
     }
     public Camera setPosition(Float3 value) {
         mPosition = value;
-        update();
+        updateOrbit();
         return this;
     }
     public Camera setPositionX(float value) {
         mPosition.x = value;
-        update();
+        updateOrbit();
         return this;
     }
     public Camera setPositionY(float value) {
         mPosition.y = value;
-        update();
+        updateOrbit();
         return this;
     }
     public Camera setPositionZ(float value) {
         mPosition.z = value;
-        update();
+        updateOrbit();
         return this;
     }
     public Camera move(Float3 value) {
         mPosition.x += value.x;
         mPosition.y += value.y;
         mPosition.z += value.z;
-        update();
+        updateOrbit();
         return this;
     }
     public Camera moveX(float value) {
         mPosition.x += value;
-        update();
+        updateOrbit();
         return this;
     }
     public Camera moveY(float value) {
         mPosition.y += value;
-        update();
+        updateOrbit();
         return this;
     }
     public Camera moveZ(float value) {
         mPosition.z += value;
-        update();
+        updateOrbit();
         return this;
     }
 
@@ -106,44 +106,44 @@ public class Camera {
     }
     public Camera setCenter(Float3 value) {
         mCenter = value;
-        update();
+        updateOrbit();
         return this;
     }
     public Camera setCenterX(float value) {
         mCenter.x = value;
-        update();
+        updateOrbit();
         return this;
     }
     public Camera setCenterY(float value) {
         mCenter.y = value;
-        update();
+        updateOrbit();
         return this;
     }
     public Camera setCenterZ(float value) {
         mCenter.z = value;
-        update();
+        updateOrbit();
         return this;
     }
     public Camera moveCenter(Float3 value) {
         mCenter.x += value.x;
         mCenter.y += value.y;
         mCenter.z += value.z;
-        update();
+        updateOrbit();
         return this;
     }
     public Camera moveCenterX(float value) {
         mCenter.x += value;
-        update();
+        updateOrbit();
         return this;
     }
     public Camera moveCenterY(float value) {
         mCenter.y += value;
-        update();
+        updateOrbit();
         return this;
     }
     public Camera moveCenterZ(float value) {
         mCenter.z += value;
-        update();
+        updateOrbit();
         return this;
     }
 

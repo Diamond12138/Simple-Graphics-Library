@@ -12,7 +12,7 @@ public class Sprite {
     public Sprite() {
         mPosition = new Float3(0,0,0);
         mRotate = new Float3(0,0,0);
-        mScale = new Float3(0,0,0);
+        mScale = new Float3(1,1,1);
         mMatrix = new Matrix4f();
     }
     
