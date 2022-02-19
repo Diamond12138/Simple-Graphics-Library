@@ -67,4 +67,12 @@ public class VectorUtil {
     public static float[] toArray(Float3 v) {
         return new float[] { v.x,v.y,v.z };
     }
+
+    public static boolean equal(Float3 a, Float3 b) {
+        return (
+                (Math.abs(a.x - b.x) < 0.0001f) &&
+                (Math.abs(a.y - b.y) < 0.0001f) &&
+                (Math.abs(a.z - b.z) < 0.0001f)
+            );
+    }
 }
